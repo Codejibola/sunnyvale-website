@@ -895,20 +895,25 @@ h5{
     /* Designing the second division of the body */
     
     #second-division{
-        width: 96%;
+        width: 90%;
         margin: 0 auto;
     }
     
     .inner-div{
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 40% 60%;
         gap: 40px;
         margin: 0px 10px 120px 10px;
+    }
+
+    .inner-div > div{
+        font-size: 30px;
     }
     
     .image{
         box-shadow: 5px 5px 30px 5px ;
-        margin-left: 280px;
+        margin-left: 380px;
+        width: 890px;
     }
 
     .omo,h3,.om{
@@ -919,7 +924,9 @@ h5{
     }
     
     .omo{
-        margin-left: 43px;
+        margin-left: 170px;
+        font-size: 60px;
+        margin-bottom: 40px;
     }
     /* Designing the third division of the body */
     #third-division{
