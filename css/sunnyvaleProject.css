@@ -540,7 +540,7 @@ h5{
         margin-top: 0;
         }
 .gun{
-        width: 890px;
+        width: 930px;
         height: auto;
     }
 .i{
@@ -955,7 +955,7 @@ h5{
     .fourth{
         display: grid;
         grid-template-columns: 40% 30% 30%;
-        gap: 24px;
+        gap: 45px;
         width: 100%;
         border-radius: 10px;
         margin: 0 auto;
