@@ -580,6 +580,7 @@ h5{
 }      
 }
 
+/*  making my website responsive for an large laptop */
 @media screen and (min-width:1440px) {
     .header{
         width: 100%;
@@ -706,36 +707,80 @@ h5{
     .rat,.omo{
         font-size: 40px;
     }
-    #fourth-division{
-        margin-left: 0px;
-        width: 92%;
-
-    }
     #third-division{
         width: 90%;
     }
-    .fourth{
-        display: grid;
-        grid-template-columns: 42% 30% 28%;
-        gap: 24px;
-        width: 90%;
-        border-radius: 10px;
-        margin: 0 auto;
-    }
-    .fourth img{
-        width: 250px;
-    }
-    .right{
-        font-size: 12px;
-        line-height:23px;
-        margin-left: 21px;
-        line-height: 15px;
-    }
-    .gold{
-        padding: 2px;
-        margin-right: 10px;
-        font-size: 13px;
-    }
+    /* Designing the fourth division of the body */
+#fourth-dision{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.fourth{
+    display: grid;
+    grid-template-columns: 46% 27% 27%;
+    gap: 24px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.fourth > div{
+    padding: 20px;
+    border: 2px solid #ffffff;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.image-flex{
+    display: flex;
+}
+
+.right{
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 17.05px;
+    line-height: normal;
+}
+
+.yam{
+    width: 200px;
+    margin-top: 10px;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.gold{
+    background-color: #2C2C2C;
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 4px;
+}
+    /* designing the fifth division  */
+#fifth-division{
+    display: flex;
+    margin-top:130px ;
+    gap:16em ;
+    width: 100%;
+}
+
+.rat1{
+    margin-left: 90px;
+    font-size: 40px;
+}
+.new{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.big{
+    margin-bottom: 40px;
+    /* margin: 180px; */
+}
    .submit{
     margin-left: 450px;
    }
